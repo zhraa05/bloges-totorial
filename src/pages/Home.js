@@ -17,6 +17,7 @@ import Tags from "../components/Tags";
 import Mostpopuler from "../components/Mostpopuler";
 import Tranding from "../components/Tranding";
 const Home = ({ setActive, user }) => {
+
     const [loading, setLoading] = useState(true);
     const [blogs, setBlogs] = useState([]);
     const [tags, setTags] = useState([]);
